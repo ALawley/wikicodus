@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+    <script src="../js/jquery-1.12.0.js"></script>
+    <script src="../js/scripts.js"></script>
+    <title>Wiki Cascading Styles</title>
+  </head>
+  <body>
+    <div class="page-header">
+      <h1>Cascading Styles</h1>
+      <h3>"Cascading" in the CSS context means that because more than one stylesheet rule could apply to a particular piece of HTML, there has to be a known way of determining which specific stylesheet rule applies to which piece of HTML. The rule used is chosen by cascading down from the more general rules to the specific rule required. The most specific rule is chosen.</h3>
+      <a  class="btn btn-primary" href="../index.html">Home</a>
+    </div>
+    <div class="container">
+      <h5> Cascading Styles</h5>
+      <p>In a specific case if you selected all div's in your file and then added a style to it and then selected a specific div simply by it's class name it may not change that style if it conflicts with your previous styling. Adding a more specific selection such as the name of the parent plus the class  or id of the specific div would create priority in the styling cascade to make that rule change the element properly.</p>
+      <p>non-specific selection:</p>
+      <p>h2 {</br>
+        font-size: 32px;</br>
+        } </p>
+      <p>specific selection:</p>
+      <p>.countries h2 {</br>
+        font-size: 36px;</br>
+        } </p>
+    </div>
+
+  </body>
+</html>

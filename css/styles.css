@@ -6,3 +6,18 @@
   padding: 20px;
   text-align: center;
 }
+
+.inline {
+  color: red;
+  text-decoration: underline;
+}
+
+.example {
+  border: 1px solid black;  
+}
+
+.col-sm-4 {
+ background-color: #ffb31a;
+ border: 1px solid black;
+
+}
